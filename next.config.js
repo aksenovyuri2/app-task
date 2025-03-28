@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/app-task',
+  assetPrefix: '/app-task/',
   env: {
     NEXT_PUBLIC_OPENAI_API_KEY: process.env.OPENAI_API_KEY,
   },
